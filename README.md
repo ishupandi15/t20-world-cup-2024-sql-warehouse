@@ -94,26 +94,6 @@ Built in **seven stages**, it simulates a complete enterprise workflow — from 
 
 ---
 
-## 📊 Verification Queries
-```sql
--- ✅ View Validation
-SELECT TOP 5 * FROM dbo.Top_Batsmen_View;
-SELECT TOP 5 * FROM dbo.Indian_Best_Bowling_View;
-SELECT TOP 5 * FROM dbo.Match_High_Scorers_View;
-
--- ✅ Audit Table Test
-INSERT INTO dbo.List_of_Players (Player,Birth_date,Team,Batting_style,Bowling_style)
-VALUES ('Test Player','1990-01-01','India','Right-hand bat',NULL);
-UPDATE dbo.List_of_Players SET Team='India A' WHERE Player='Test Player';
-DELETE FROM dbo.List_of_Players WHERE Player='Test Player';
-SELECT TOP 10 * FROM dbo.List_of_Players_Audit ORDER BY Audit_ID DESC;
-
--- ✅ Stored Procedure & Function
-EXEC dbo.GetPlayerPerformance @PlayerName='Virat Kohli';
-SELECT dbo.fn_GetPlayerStrikeRate('Virat Kohli') AS StrikeRate;
-
----
-
 ## 📈 Results Summary
 
 ✅ **Views:** Extracted meaningful analytical insights across batting, bowling, and match data.  
@@ -136,7 +116,7 @@ SELECT dbo.fn_GetPlayerStrikeRate('Virat Kohli') AS StrikeRate;
 ## 📜 License
 
 This project is released under the **MIT License**.  
-You are free to use, modify, and share this work with proper attribution.
+You are free to use, modify, and share this work with proper referrence.
 
 ---
 
@@ -146,3 +126,21 @@ You are free to use, modify, and share this work with proper attribution.
 🎓 **Graduate Student — Arizona State University**  
 📧 [ipandi1@asu.edu](mailto:ipandi1@asu.edu)  
 📎 [GitHub Repository](https://github.com/ishupandi15/t20-world-cup-2024-sql-warehouse)
+
+## 📊 Verification Queries to test your SQL code
+```sql
+-- ✅ View Validation
+SELECT TOP 5 * FROM dbo.Top_Batsmen_View;
+SELECT TOP 5 * FROM dbo.Indian_Best_Bowling_View;
+SELECT TOP 5 * FROM dbo.Match_High_Scorers_View;
+
+-- ✅ Audit Table Test
+INSERT INTO dbo.List_of_Players (Player,Birth_date,Team,Batting_style,Bowling_style)
+VALUES ('Test Player','1990-01-01','India','Right-hand bat',NULL);
+UPDATE dbo.List_of_Players SET Team='India A' WHERE Player='Test Player';
+DELETE FROM dbo.List_of_Players WHERE Player='Test Player';
+SELECT TOP 10 * FROM dbo.List_of_Players_Audit ORDER BY Audit_ID DESC;
+
+-- ✅ Stored Procedure & Function
+EXEC dbo.GetPlayerPerformance @PlayerName='Virat Kohli';
+SELECT dbo.fn_GetPlayerStrikeRate('Virat Kohli') AS StrikeRate;
