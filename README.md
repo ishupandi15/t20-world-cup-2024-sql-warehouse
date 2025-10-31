@@ -8,8 +8,7 @@
 
 ---
 
-### 🏫 **Arizona State University — IFT 530: Advanced Database Systems**  
-**Instructor:** Dr. Asmaa Elbadrawy  
+### 🏫 **Arizona State University — Advanced Database Systems**  
 
 ---
 
