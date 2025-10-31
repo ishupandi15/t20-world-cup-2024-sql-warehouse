@@ -129,16 +129,18 @@ Built in **seven stages**, it simulates a complete enterprise workflow — from 
 ---
 
 ## 🎥 Demo Snapshot
+
+Creating database
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/0f2e4d23-7960-43ce-a7f7-9d17ed940d68" />
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/7365045d-e7ca-473a-bfec-ef50694d2807" />
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/8683a0b3-908f-42a6-aa3b-bc8567956547" />
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/289a36a4-f04f-446f-b8f7-efd196f5fc45" />
 
-EAD DIAGRAM
+EAD Diagram
 
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/14124d99-2751-4b13-b35d-d882d1816167" />
 
-INSERTING DATA
+Inserting data
 
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/c06f50d0-2372-41ff-a216-15aa99b38ea2" />
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/48af77ab-621a-4cd1-a9df-e8be5a64c5b1" />
