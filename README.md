@@ -18,3 +18,7 @@ docker exec -it mssql2022 /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P Your
 docker exec -it mssql2022 /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P YourStrong!Passw0rd -i /opt/sql/05_audit_triggers.sql
 docker exec -it mssql2022 /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P YourStrong!Passw0rd -i /opt/sql/06_stored_procedure_udf.sql
 docker exec -it mssql2022 /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P YourStrong!Passw0rd -i /opt/sql/07_cursor_demo.sql
+
+##Option B — Run in SSMS / Azure Data Studio
+
+##Open each file from sql/ and execute in order (01 → 07).
