@@ -135,9 +135,11 @@ Built in **seven stages**, it simulates a complete enterprise workflow — from 
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/289a36a4-f04f-446f-b8f7-efd196f5fc45" />
 
 EAD DIAGRAM
+
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/14124d99-2751-4b13-b35d-d882d1816167" />
 
 INSERTING DATA
+
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/c06f50d0-2372-41ff-a216-15aa99b38ea2" />
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/48af77ab-621a-4cd1-a9df-e8be5a64c5b1" />
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/c61364ab-db2a-4c1a-931e-5ce2ae27b830" />
@@ -156,51 +158,48 @@ INSERTING DATA
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/9392ebec-f614-4774-b83d-5e624e490757" />
 
 Creating 3 queries:
+
 Query 1: View: Top Batsmen by Average
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/469ce252-7618-40cd-aaa6-bc955d935096" />
-
 Query 2: View: Best Bowling Performances by Indian Players
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/a4c60fdc-58a4-413c-8f01-cbe9589de49b" />
-
 Query 3: View: Match-Wise High Scoring Batsmen
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/f52e251c-4e08-44b1-af5b-baa3fe98e9b9" />
 
 Create the Audit Table
+
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/7b4b4bcc-0296-4ff6-a6d2-0865798dfe5c" />
 
 Create Triggers for Insert, Update, Delete
+
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/0b0b30eb-53cd-451d-9583-2eb94eb572b5" />
-
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/d9fe7920-55cd-4c9e-a6cc-aecb367455f5" />
-
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/0079f63f-58e8-4383-a3d0-d21cd1105019" />
 
 Testing the Triggers
+
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/a9229b95-cb71-4646-9f33-f4a1c4843b59" />
-
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/ac077f82-6d97-4da2-a145-da55f930145c" />
-
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/ad166b45-0bb4-4590-8486-8e1dc2667407" />
 
 View Audit Results
+
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/a303506b-37bf-48d0-a3ad-4ab7be4e5df7" />
 
 Stored Procedure (SP):  ----- GetPlayerPerformance
 
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/f86570f1-8bf2-4ea8-8eb4-4e6cf395fbdb" />
-
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/b4a3c74b-2f00-4eec-ab03-e77133fa6e52" />
-
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/46234b5e-a3c9-46d9-b177-d5592824b07e" />
 
 User Defined Function (UDF): fn_GetPlayerStrikeRate
+
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/8a0ed9a9-83ee-4f01-8fab-0c157543a795" />
-
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/5af1d740-3d5b-4860-88ef-b746681e260b" />
-
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/cbe6dd1d-b7f9-4340-b401-df17ac5511f1" />
 
 Create and Use a Cursor:
+
 <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/b09a8cb0-c638-465e-8d3c-df44655a10ed" />
 
 ---
