@@ -1,0 +1,7 @@
+/* Optional reset script */
+USE master;
+GO
+IF DB_ID('Group_35') IS NOT NULL
+  DROP DATABASE Group_35;
+GO
+PRINT 'Database Group_35 dropped.';
